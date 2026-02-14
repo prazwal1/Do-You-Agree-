@@ -81,7 +81,7 @@ Cosine Similarity: 0.3526
 
 ## 🌐 Web Application
 
-### [Live Demo](https://do-you-agree.southeastasia.azurecontainerapps.io)
+### [Live Demo](https://do-you-agree.redisland-4f8672a1.southeastasia.azurecontainerapps.io/)
 
 ### Features
 - **Input Interface**: Two text boxes for premise and hypothesis
