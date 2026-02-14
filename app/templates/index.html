@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do you AGREE? - NLI Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Do you AGREE?</h1>
+            <p>Natural Language Inference Prediction</p>
+        </header>
+        <main>
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="premise">Premise</label>
+                    <textarea id="premise" rows="4" placeholder="E.g., A man is playing a guitar on stage."></textarea>
+                </div>
+                <div class="input-field">
+                    <label for="hypothesis">Hypothesis</label>
+                    <textarea id="hypothesis" rows="4" placeholder="E.g., The man is performing music."></textarea>
+                </div>
+            </div>
+            <button id="predict-btn">Predict</button>
+            <div id="result-container">
+                <h2>Prediction:</h2>
+                <p id="result-text"></p>
+            </div>
+        </main>
+        <footer>
+            <p>A4 - NLU Assignment | Text Similarity Web App</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
